@@ -283,7 +283,7 @@ input.au-input.au-input-xl{
     right:0;
     min-width:95px;
     color:#eee0e0;
-    border:1px solid #205b8d;
+    
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     border-radius:43px;
@@ -737,7 +737,7 @@ table.table.table-bordered th{
  .btn-info{
     color:#fff;
     background-color:#0da8e4!important;
-    border-color:#0da8e4!important
+    
 }
 a.primary-btn{
     background:#05143f;
