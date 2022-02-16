@@ -14,6 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
 import { LoginStatusComponent } from './components/login-status/login-status.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';  
+import { ContactFormComponent } from './components/contact-us/contact-us.component';
 
 
 import { 
@@ -43,8 +44,11 @@ const routes: Routes = [
   { path: 'search/:keyword', component: ProductListComponent },
   { path: 'category', component: ProductListComponent },
   { path: 'products', component: ProductListComponent },
+  { path: 'contactus', component:ContactFormComponent },
+
   { path: '', redirectTo: '/products', pathMatch: 'full' },
-  { path: '**', redirectTo: '/products', pathMatch: 'full' }
+  { path: '**', redirectTo: '/products', pathMatch: 'full' },
+
 ];
 @NgModule({
   declarations: [
@@ -58,6 +62,7 @@ const routes: Routes = [
     CheckoutComponent,
     LoginComponent,
     LoginStatusComponent,
+    ContactFormComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
