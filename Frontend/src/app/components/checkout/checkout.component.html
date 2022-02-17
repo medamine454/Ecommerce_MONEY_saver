@@ -3,8 +3,8 @@
         <div class="container-fluid">
             <form [formGroup]="checkoutFormGroup" (ngSubmit)="onSubmit()">
                 <!-- customer form group -->
-                <div formGroupName="customer" class="form-area">
-                    <h3>Customer</h3>
+                <div formGroupName="customer" class="form-area" style="background-color: #D4CDC9;">
+                    <h3 style="background-color: #6D6576;">Customer</h3>
 
                     <div class="row">
                         <div class="col-md-2">
@@ -72,8 +72,8 @@
 
 
                     <!-- shipping address form group -->
-                <div formGroupName="shippingAddress" class="form-area">
-                    <h3>Shipping address</h3>
+                <div formGroupName="shippingAddress" class="form-area" style="background-color: #D4CDC9;">
+                    <h3 style="background-color: #6D6576;">Shipping address</h3>
 
                     <div class="row">
                         <div class="col-md-2">
@@ -194,8 +194,8 @@
                 </div>
 
                     <!-- billing address form group -->
-                    <div formGroupName="billingAddress" class="form-area">
-                        <h3>billing address</h3>
+                    <div formGroupName="billingAddress" class="form-area" style="background-color: #D4CDC9;">
+                        <h3 style="background-color: #6D6576;">billing address</h3>
     
                         <div class="row">
                             <div class="col-md-2">
@@ -308,8 +308,8 @@
 
 
                     <!-- Credit Card  form group -->
-                    <div formGroupName="creditCard" class="form-area">
-                    <h3>Credit card</h3>
+                    <div formGroupName="creditCard" class="form-area" style="background-color: #D4CDC9;"> 
+                    <h3 style="background-color: #6D6576;">Credit card</h3>
 
                     <div class="row">
                         <div class="col-md-2">
@@ -427,8 +427,8 @@
                     </div>
 
                     <!-- Order details Review -->
-                    <div class="form-area">
-                        <h3>Review Your Order</h3>
+                    <div class="form-area" style="background-color: #D4CDC9;">
+                        <h3 style="background-color: #6D6576;">Review Your Order</h3>
                         <p>Total Quantity: {{ totalQuantity }}</p>
                         <p>Total Quantity: FREE</p>
                         <p>Total Price: {{ totalPrice | currency: 'USD' }}</p>
@@ -437,7 +437,7 @@
 
                 <!-- submit button -->
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary btn-block">Purchase</button>
+                    <button type="submit" class="btn btn-primary btn-block" style="background-color: #6D6576;">Purchase</button>
                 </div>
             </form>
         </div>
