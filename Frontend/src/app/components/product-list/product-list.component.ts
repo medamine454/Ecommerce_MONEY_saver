@@ -20,7 +20,16 @@ export class ProductListComponent implements OnInit {
   thePageNumber: number = 1;
   thePageSize: number = 10;
   theTotalElements: number = 0;
-
+  images = [  
+    { img: "../assets/banner.jpg" },  
+    { img: "../assets/banner1.jpg" },  
+  ];  
+  slideConfig = {  
+    "slidesToShow": 1,  
+    "slidesToScroll": 1,  
+    "dots": true,  
+    "infinite": true  
+  };  
 
   constructor(
     private productService: ProductService,

@@ -7,7 +7,7 @@ ul {
 }
 
 .rating {
-    margin-left: 30%
+    margin-left: 20%
     
 }
 
@@ -46,8 +46,11 @@ a{
 .card {
     width: 90%;
     padding: 5px;
-    margin-left: 2%
+    margin-left: 2%;
+    
+    
 }
+
 
 .card-footer {
     background-color: #cf1e6b38;
@@ -78,5 +81,10 @@ a{
 
 .card-body {
     background-color:#6d65763f;
+    
 }
 
+.slick-slider {  
+    width: 100%;  
+    margin: auto;  
+  }
