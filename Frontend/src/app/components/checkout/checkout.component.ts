@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { CartService } from 'src/app/services/cart.service';
 import { Router } from '@angular/router';
-import Swal from 'sweetalert2/dist/sweetalert2.js';  
+import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-checkout',
@@ -38,6 +38,10 @@ export class CheckoutComponent implements OnInit {
               private cartService: CartService,
               private checkoutService: CheckoutService,
               private router: Router) { }
+
+
+
+
 
   ngOnInit() {
       this.checkoutFormGroup = this.formBuilder.group({
@@ -154,7 +158,14 @@ export class CheckoutComponent implements OnInit {
     // call REST API via checkoutService
     this.checkoutService.placeOrder(purchase).subscribe(
       data =>{
-         alert(`your order has been recieved.\n order tracking number: ${data.orderTrackingNumber}`);
+        Swal.fire({
+          title: 'Thank you for your order!',
+          text: `Your order has been received.\n Order tracking number: ${data.orderTrackingNumber}`,
+          imageUrl: '../assets/happy.png',
+          imageWidth: 400,
+          imageHeight: 315,
+          imageAlt: 'Custom image',
+        })
          // reset checkout form
          this.resetCart();
       },
@@ -163,6 +174,7 @@ export class CheckoutComponent implements OnInit {
       }
     )
   }
+
 
 
   resetCart() {
