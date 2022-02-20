@@ -28,17 +28,6 @@ export class ProductListComponent implements OnInit {
     private cartService: CartService
   ) { }
 
-  images = [  
-    { img: "../assets/banner.jpg" },  
-    { img: "../assets/banner1.jpg" },  
-  ];  
-  slideConfig = {  
-    "slidesToShow": 1,  
-    "slidesToScroll": 1,  
-    "dots": true,  
-    "infinite": true  
-  };  
-
   ngOnInit() {
     this.route.paramMap.subscribe(() => {
       this.listProducts();
