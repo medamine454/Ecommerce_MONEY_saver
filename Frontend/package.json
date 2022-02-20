@@ -33,6 +33,7 @@
     "ngx-slick-carousel": "^0.5.1",
     "rxjs": "~6.3.3",
     "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.4.2",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
