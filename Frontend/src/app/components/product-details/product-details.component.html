@@ -1,4 +1,7 @@
-
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
 
 
@@ -9,13 +12,33 @@
         <img src="{{ product.imageUrl }}" alt="product.imageUrl" class="detail-img">
       </div>
       <div class="col-md-7">
-        <h3>{{ product.name }}</h3>
+        <h3>{{ product.name }} <button class="btn btn-lg" type="button"><i class="fa fa-heart fa-beat"></i></button></h3>
+        
+        <div class="rating">
+          <div class="stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <span class="review-no">41 reviews</span>
+        </div>
+
+        <div class="text"> 
+          <span class="text">In stock.</span>
+        </div>
+
         <div class="price">{{ product.unitPrice | currency: "TND":"symbol" }}</div>
-        <div style="text-decoration: line-through;" >{{ product.oldPrice | currency: "TND":"symbol" }}</div>
-        <button (click)="addToCart()" class="btn btn-primary btn-sm">Add to cart</button>
-        <hr>
-        <h3>Description</h3>
+        <div style="text-decoration: line-through;" >{{ product.oldPrice | currency: "TND":"symbol" }}</div>  
+      
+        <button (click)="addToCart()" class="btn btn-sm">Add to cart</button>
+
+        <hr class="m-0 p-0">
+
+        <h3>Description </h3>
         <p>{{ product.description }}</p>
+        <p>{{ units_in_stock }} units of the product are left.</p>
         <a routerLink="/products" class="mt-5" >Back to Product list</a>
       </div>
     </div>

@@ -1,0 +1,79 @@
+.rating {
+    margin-bottom: 15px; }
+
+.checked {
+    color: #e6c71a;
+    margin: 3px;
+ }
+
+.fa-star {
+    margin: 3px;
+}
+
+.review-no{
+    margin-left: 3%;
+}
+
+.text{
+    color:#A57E8F;
+    font-weight: 550;
+    font-size: medium;
+}
+
+.price {
+    color:#d134d1;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.btn-sm{ 
+    margin-top: 1%;
+    background-color: #A57E8F;
+    font-weight: 700;
+    font-size: medium;
+    border : 2px solid #cf1e6b38;
+    border-radius: 5px 5px 5px 5px;
+    width: 20%;
+    height: 9%;
+    margin-bottom: 3%;
+}
+
+.btn-lg{
+    background-color: #A57E8F;
+    border : 2px solid #cf1e6b38;
+    border-radius: 5px 5px 5px 5px;
+    width: 8%;
+    height: 6%;
+}
+
+
+.fa-beat {
+    animation:fa-beat 5s ease infinite;
+    
+  }
+  @keyframes fa-beat {
+    0% {
+      transform:scale(1);
+    }
+    5% {
+      transform:scale(1.25);
+    }
+    20% {
+      transform:scale(1);
+    }
+    30% {
+      transform:scale(1);
+    }
+    35% {
+      transform:scale(1.25);
+    }
+    50% {
+      transform:scale(1);
+    }
+    55% {
+      transform:scale(1.25);
+    }
+    70% {
+      transform:scale(1);
+    }
+  }
