@@ -11,6 +11,7 @@
       <div class="col-md-7">
         <h3>{{ product.name }}</h3>
         <div class="price">{{ product.unitPrice | currency: "TND":"symbol" }}</div>
+        <div style="text-decoration: line-through;" >{{ product.oldPrice | currency: "TND":"symbol" }}</div>
         <button (click)="addToCart()" class="btn btn-primary btn-sm">Add to cart</button>
         <hr>
         <h3>Description</h3>
