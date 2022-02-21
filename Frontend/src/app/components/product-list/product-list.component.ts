@@ -20,14 +20,6 @@ export class ProductListComponent implements OnInit {
   thePageNumber: number = 1;
   thePageSize: number = 10;
   theTotalElements: number = 0;
-
-
-  constructor(
-    private productService: ProductService,
-    private route: ActivatedRoute,
-    private cartService: CartService
-  ) { }
-
   images = [  
     { img: "../assets/banner.jpg" },  
     { img: "../assets/banner1.jpg" },  
@@ -38,6 +30,12 @@ export class ProductListComponent implements OnInit {
     "dots": true,  
     "infinite": true  
   };  
+
+  constructor(
+    private productService: ProductService,
+    private route: ActivatedRoute,
+    private cartService: CartService
+  ) { }
 
   ngOnInit() {
     this.route.paramMap.subscribe(() => {

@@ -1,11 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 ul {
     list-style-type: none;
     margin-left: 37%;
-    padding: 0
+    padding: 1%
 }
 
 .rating {
-    margin-left: 37%
+    margin-left: 20%
+    
 }
 
 .page {
@@ -15,12 +18,17 @@ ul {
 }
 
 a{
-    color: black;
+    color:#6D6576;
     text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
 }
 
+
 .fa {
-    color: #f2dd1d
+    color: #e6c71a;
+   margin: 3px;
 }
 
 .card-img-top {
@@ -29,25 +37,51 @@ a{
 }
 
 .view {
-    /* background-color: #dfe6e0; */
-    padding: 10px;
-    margin: 20px
+     
+      
+    padding: 0px;
+    margin-bottom: 20px
 }
 
 .card {
-    width: 95%;
-    padding: 0px;
-    margin-left: 2%
+    width: 90%;
+    padding: 5px;
+    margin-left: 2%;
+    
+    
 }
 
+
 .card-footer {
-    background-color: #ff772e;
-    font-weight: 700
+    background-color: #cf1e6b38;
+    font-weight: 700;
+    border : 2px solid #cf1e6b38;
+    border-radius: 50px 20px;
+
+    
 }
 
 .price {
-    color: #ff4517;
-    font-weight: 600
+    color:#d134d1;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.text{
+    color: #6D6576;
+    color : #545163;
+    color:#6D6576 ;
+    color: #A57E8F;
+    color :#CBB5AC;
+    color :#D4CDC9;
+
+
+
+}
+
+.card-body {
+    background-color:#6d65763f;
+    
 }
 
 .slick-slider {  
