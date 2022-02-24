@@ -1,4 +1,4 @@
-package com.ouhamza.ecommerce.entity;
+package com.money_saver.ecommerce.entity;
 
 import lombok.Data;
 
@@ -6,9 +6,6 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author <a href="https://github.com/ouhamzalhss"> Lhouceine OUHAMZA </a>
- */
 @Entity
 @Data
 public class Customer {

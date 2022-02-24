@@ -1,9 +1,8 @@
-package com.ouhamza.ecommerce.entity;
+package com.money_saver.ecommerce.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.hibernate.mapping.ToOne;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -11,9 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author <a href="https://github.com/ouhamzalhss"> Lhouceine OUHAMZA </a>
- */
+
 @Entity
 @Table(name = "orders")
 @Data

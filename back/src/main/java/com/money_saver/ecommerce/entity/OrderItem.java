@@ -1,13 +1,9 @@
-package com.ouhamza.ecommerce.entity;
+package com.money_saver.ecommerce.entity;
 
 import lombok.Data;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-
-/**
- * @author <a href="https://github.com/ouhamzalhss"> Lhouceine OUHAMZA </a>
- */
 
 @Entity
 @Data

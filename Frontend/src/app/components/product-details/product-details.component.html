@@ -3,17 +3,14 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-
-
 <div class="detail-section pt-5">
   <div class="container-fluid">
     <div class="row mt-5">
       <div class="col-md-5">
         <img src="{{ product.imageUrl }}" alt="product.imageUrl" class="detail-img">
       </div>
-      <div class="col-md-7">
+      <div class="col-md-7" style="padding-bottom: 20px;">
         <h3>{{ product.name }} <button class="btn btn-lg" type="button"><i class="fa fa-heart fa-beat"></i></button></h3>
-        
         <div class="rating">
           <div class="stars">
             <span class="fa fa-star checked"></span>
@@ -38,7 +35,7 @@
 
         <h3>Description </h3>
         <p>{{ product.description }}</p>
-        <p>{{ units_in_stock }} units of the product are left.</p>
+        <p>{{ product.unitsInStock }} units of the product are left.</p>
         <a routerLink="/products" class="mt-5" >Back to Product list</a>
       </div>
     </div>

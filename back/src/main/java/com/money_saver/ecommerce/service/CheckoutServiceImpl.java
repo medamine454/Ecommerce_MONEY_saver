@@ -1,11 +1,11 @@
-package com.ouhamza.ecommerce.service;
+package com.money_saver.ecommerce.service;
 
-import com.ouhamza.ecommerce.dao.CustomerRepository;
-import com.ouhamza.ecommerce.dto.Purchase;
-import com.ouhamza.ecommerce.dto.PurchaseResponse;
-import com.ouhamza.ecommerce.entity.Customer;
-import com.ouhamza.ecommerce.entity.Order;
-import com.ouhamza.ecommerce.entity.OrderItem;
+import com.money_saver.ecommerce.dao.CustomerRepository;
+import com.money_saver.ecommerce.dto.Purchase;
+import com.money_saver.ecommerce.dto.PurchaseResponse;
+import com.money_saver.ecommerce.entity.Customer;
+import com.money_saver.ecommerce.entity.Order;
+import com.money_saver.ecommerce.entity.OrderItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,9 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * @author <a href="https://github.com/ouhamzalhss"> Lhouceine OUHAMZA </a>
- */
+
 @Service
 public class CheckoutServiceImpl implements CheckoutService {
 

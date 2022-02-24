@@ -20,7 +20,6 @@ ul {
 a{
     color:#6D6576;
     text-decoration: none;
-    text-transform: lowercase;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
 }
@@ -49,6 +48,7 @@ a{
     margin-left: 2%;
     
     
+    
 }
 
 
@@ -74,6 +74,7 @@ a{
     color: #A57E8F;
     color :#CBB5AC;
     color :#D4CDC9;
+    
 
 
 
