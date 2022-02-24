@@ -35,8 +35,10 @@
               <div class="card-body card-body-cascade text-center">
                   <!--Card Title-->
                   <h4 class="card-title"><strong><a routerLink="/products/{{ prod.id }}">{{ prod.name }}</a></strong></h4> <!-- Card Description-->
-                  <p class="card-text">This is a Mobile phone with all the advance features and at best price. </p>
+                  <p>{{ prod.description }}</p>
+                         <div style="text-decoration: line-through; font-weight: 500; color: red;" >{{ prod.oldPrice | currency: "TND":"symbol" }}</div>  
                   <p class="price">{{ prod.unitPrice | currency:"TND":"symbol" }}</p> <!-- Card Rating-->
+
                   <ul class="row rating">
                       <li><i class="fa fa-star"></i></li>
                       <li><i class="fa fa-star"></i></li>
