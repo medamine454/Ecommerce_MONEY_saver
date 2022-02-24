@@ -17,9 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @author <a href="https://github.com/ouhamzalhss"> Lhouceine OUHAMZA </a>
- */
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 

@@ -5,9 +5,7 @@ import com.ouhamza.ecommerce.dto.PurchaseResponse;
 import com.ouhamza.ecommerce.service.CheckoutService;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * @author <a href="https://github.com/ouhamzalhss"> Lhouceine OUHAMZA </a>
- */
+
 
 @RestController
 @CrossOrigin()

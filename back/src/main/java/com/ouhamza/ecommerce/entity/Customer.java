@@ -6,9 +6,6 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author <a href="https://github.com/ouhamzalhss"> Lhouceine OUHAMZA </a>
- */
 @Entity
 @Data
 public class Customer {

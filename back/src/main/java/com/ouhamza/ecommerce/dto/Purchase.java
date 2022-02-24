@@ -8,9 +8,7 @@ import lombok.Data;
 
 import java.util.List;
 
-/**
- * @author <a href="https://github.com/ouhamzalhss"> Lhouceine OUHAMZA </a>
- */
+
 
 @Data
 public class Purchase {

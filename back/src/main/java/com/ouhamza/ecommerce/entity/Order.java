@@ -11,9 +11,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author <a href="https://github.com/ouhamzalhss"> Lhouceine OUHAMZA </a>
- */
+
 @Entity
 @Table(name = "orders")
 @Data

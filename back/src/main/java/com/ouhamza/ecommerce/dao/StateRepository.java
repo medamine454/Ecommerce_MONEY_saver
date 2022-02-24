@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
 
-/**
- * @author Lhouceine OUHAMZA
- */
+
 @CrossOrigin()
 @RepositoryRestResource
 public interface StateRepository extends JpaRepository<State, Long> {
