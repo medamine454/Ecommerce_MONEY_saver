@@ -15,6 +15,8 @@ import { LoginComponent } from './components/login/login.component';
 import { LoginStatusComponent } from './components/login-status/login-status.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';  
 import { ContactFormComponent } from './components/contact-us/contact-us.component';
+import { NgxQRCodeModule } from '@techiediaries/ngx-qrcode';
+
 
 
 import { 
@@ -71,10 +73,13 @@ const routes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     OktaAuthModule,
-    SlickCarouselModule 
+    SlickCarouselModule,
+    NgxQRCodeModule
 
   ],
   providers: [{provide: OKTA_CONFIG, useValue: oktaConfig}],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+ }

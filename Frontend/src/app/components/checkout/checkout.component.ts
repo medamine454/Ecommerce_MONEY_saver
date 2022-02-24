@@ -13,6 +13,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import { CartService } from 'src/app/services/cart.service';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2'
+import { NgxQrcodeElementTypes, NgxQrcodeErrorCorrectionLevels } from '@techiediaries/ngx-qrcode';
 
 @Component({
   selector: 'app-checkout',
@@ -20,6 +21,11 @@ import Swal from 'sweetalert2'
   styleUrls: ['./checkout.component.css']
 })
 export class CheckoutComponent implements OnInit {
+
+
+    elementType = NgxQrcodeElementTypes.URL;
+    correctionLevel = NgxQrcodeErrorCorrectionLevels.HIGH;
+    value = 'https://www.techiediaries.com/';
 
   checkoutFormGroup: FormGroup;
 
