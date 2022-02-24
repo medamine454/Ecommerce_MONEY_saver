@@ -1,4 +1,4 @@
-package com.ouhamza.ecommerce.dto;
+package com.money_saver.ecommerce.dto;
 
 
 

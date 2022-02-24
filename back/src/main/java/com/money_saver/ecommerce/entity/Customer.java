@@ -1,4 +1,4 @@
-package com.ouhamza.ecommerce.entity;
+package com.money_saver.ecommerce.entity;
 
 import lombok.Data;
 

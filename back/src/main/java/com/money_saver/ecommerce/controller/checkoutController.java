@@ -1,8 +1,8 @@
-package com.ouhamza.ecommerce.controller;
+package com.money_saver.ecommerce.controller;
 
-import com.ouhamza.ecommerce.dto.Purchase;
-import com.ouhamza.ecommerce.dto.PurchaseResponse;
-import com.ouhamza.ecommerce.service.CheckoutService;
+import com.money_saver.ecommerce.dto.Purchase;
+import com.money_saver.ecommerce.dto.PurchaseResponse;
+import com.money_saver.ecommerce.service.CheckoutService;
 import org.springframework.web.bind.annotation.*;
 
 

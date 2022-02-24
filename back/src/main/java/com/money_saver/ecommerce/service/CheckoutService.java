@@ -1,8 +1,7 @@
-package com.ouhamza.ecommerce.service;
+package com.money_saver.ecommerce.service;
 
-import com.ouhamza.ecommerce.dto.Purchase;
-import com.ouhamza.ecommerce.dto.PurchaseResponse;
-
+import com.money_saver.ecommerce.dto.Purchase;
+import com.money_saver.ecommerce.dto.PurchaseResponse;
 
 
 public interface CheckoutService {

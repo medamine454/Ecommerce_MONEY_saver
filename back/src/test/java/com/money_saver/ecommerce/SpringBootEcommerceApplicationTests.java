@@ -1,4 +1,4 @@
-package com.ouhamza.ecommerce;
+package com.money_saver.ecommerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

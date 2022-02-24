@@ -1,9 +1,9 @@
-package com.ouhamza.ecommerce.config;
+package com.money_saver.ecommerce.config;
 
-import com.ouhamza.ecommerce.entity.Country;
-import com.ouhamza.ecommerce.entity.Product;
-import com.ouhamza.ecommerce.entity.ProductCategory;
-import com.ouhamza.ecommerce.entity.State;
+import com.money_saver.ecommerce.entity.Country;
+import com.money_saver.ecommerce.entity.Product;
+import com.money_saver.ecommerce.entity.ProductCategory;
+import com.money_saver.ecommerce.entity.State;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;

@@ -1,4 +1,4 @@
-package com.ouhamza.ecommerce.entity;
+package com.money_saver.ecommerce.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

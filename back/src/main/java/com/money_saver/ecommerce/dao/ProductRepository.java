@@ -1,6 +1,6 @@
-package com.ouhamza.ecommerce.dao;
+package com.money_saver.ecommerce.dao;
 
-import com.ouhamza.ecommerce.entity.Product;
+import com.money_saver.ecommerce.entity.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

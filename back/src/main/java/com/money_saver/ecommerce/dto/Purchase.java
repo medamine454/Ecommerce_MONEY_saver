@@ -1,9 +1,9 @@
-package com.ouhamza.ecommerce.dto;
+package com.money_saver.ecommerce.dto;
 
-import com.ouhamza.ecommerce.entity.Address;
-import com.ouhamza.ecommerce.entity.Customer;
-import com.ouhamza.ecommerce.entity.Order;
-import com.ouhamza.ecommerce.entity.OrderItem;
+import com.money_saver.ecommerce.entity.Address;
+import com.money_saver.ecommerce.entity.Order;
+import com.money_saver.ecommerce.entity.OrderItem;
+import com.money_saver.ecommerce.entity.Customer;
 import lombok.Data;
 
 import java.util.List;
