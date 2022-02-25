@@ -25,7 +25,7 @@ export class CheckoutComponent implements OnInit {
 
     elementType = NgxQrcodeElementTypes.URL;
     correctionLevel = NgxQrcodeErrorCorrectionLevels.HIGH;
-    value = 'https://www.techiediaries.com/';
+    
 
   checkoutFormGroup: FormGroup;
 
@@ -166,10 +166,10 @@ export class CheckoutComponent implements OnInit {
       data =>{
         Swal.fire({
           title: 'Thank you for your order!',
-          text: `Your order has been received.\n Order tracking number: ${data.orderTrackingNumber}`,
-          imageUrl: '../assets/happy.png',
-          imageWidth: 400,
-          imageHeight: 315,
+          text: `Your order has been received.\n Order tracking number: ${data.orderTrackingNumber}. Please copy this number or save this QRCODE to use it at the supermarket`,
+          imageUrl: `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${data.orderTrackingNumber}`,
+          imageWidth: 300,
+          imageHeight: 300,
           imageAlt: 'Custom image',
         })
          // reset checkout form

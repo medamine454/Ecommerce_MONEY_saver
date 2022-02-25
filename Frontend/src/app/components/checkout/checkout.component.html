@@ -10,11 +10,6 @@
                         <div class="col-md-2">
                             <label>First Name</label>
                         </div>
-                        <ngx-qrcode
-  [elementType]="elementType"
-  [errorCorrectionLevel]="correctionLevel"
-  [value]="value"
-  cssClass="bshadow"></ngx-qrcode>
                         <div class="col-md-9">
                             <div class="form-group">
                                 <input type="text" formControlName="firstName" class="form-control">
@@ -434,8 +429,7 @@
                     <div class="form-area" style="background-color: #D4CDC9;">
                         <h3 style="background-color: #6D6576;">Review Your Order</h3>
                         <p>Total Quantity: {{ totalQuantity }}</p>
-                        <p>Total Quantity: FREE</p>
-                        <p>Total Price: {{ totalPrice | currency: 'USD' }}</p>
+                        <p>Total Price: {{ totalPrice | currency: "TND":"symbol" }}</p>
 
                     </div>
 
